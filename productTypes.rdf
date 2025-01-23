@@ -441,10 +441,10 @@
 	<skos:prefLabel xml:lang="fr">fruit à coque</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">nut</skos:prefLabel>
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#fruit"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#medlar"/>
 	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#almond"/>
 	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#chestnut"/>
 	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#hazelnut"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#medlar"/>
 	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#walnut"/>
 </rdf:Description>
 
@@ -493,6 +493,14 @@
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
 	<skos:prefLabel xml:lang="fr">coing</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">quince</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#fruit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#medlar">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
+	<skos:prefLabel xml:lang="en">medlar</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">nèfle</skos:prefLabel>
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#fruit"/>
 </rdf:Description>
 
@@ -581,6 +589,20 @@
 	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#honey"/>
 	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#jam"/>
 	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#pastry"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#dried_goods">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
+	<skos:prefLabel xml:lang="en">dried goods</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">produits sec</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#local-grocery-store"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#grain"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#flour"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#dried_herb"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#flake"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#seed"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#pulse"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#beef">
@@ -1407,6 +1429,14 @@
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#berry"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#strawberry">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
+	<skos:prefLabel xml:lang="fr">fraise</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">strawberry</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#berry"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#almond">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
@@ -1431,28 +1461,12 @@
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#nut"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#medlar">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
-	<skos:prefLabel xml:lang="en">medlar</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">nèfle</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#fruit"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#walnut">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
 	<skos:prefLabel xml:lang="fr">noix</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">walnut</skos:prefLabel>
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#nut"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#strawberry">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
-	<skos:prefLabel xml:lang="fr">fraise</skos:prefLabel>
-	<skos:prefLabel xml:lang="en">strawberry</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#berry"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#bottled-fruit">
@@ -1566,6 +1580,36 @@
 	<skos:prefLabel xml:lang="fr">semoule</skos:prefLabel>
 	<skos:altLabel xml:lang="en">course meal</skos:altLabel>
 	<skos:altLabel xml:lang="en">grist</skos:altLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#savory-groceries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#grain">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
+	<skos:prefLabel xml:lang="fr">céréale</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">grain</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#savory-groceries"/>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#dried_goods"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#cannedGoods">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
+	<skos:prefLabel xml:lang="en">canned goods</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#savory-groceries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#snack">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
+	<skos:prefLabel xml:lang="en">snack</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#savory-groceries"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#ferment">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
+	<skos:prefLabel xml:lang="en">ferment</skos:prefLabel>
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#savory-groceries"/>
 </rdf:Description>
 
@@ -2145,6 +2189,14 @@
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#salad"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#corn-salad">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
+	<skos:prefLabel xml:lang="en">corn salad/lambs lettuce</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">mâche</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#salad"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#butternut">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
@@ -2209,26 +2261,20 @@
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#tomato"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#hierloom-tomato">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
+	<skos:prefLabel xml:lang="en">hierloom tomato</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">tomate ancienne</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#tomato"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#flour">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
 	<skos:prefLabel xml:lang="fr">farine</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">flour</skos:prefLabel>
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#dried_goods"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#dried_goods">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
-	<skos:prefLabel xml:lang="en">dried goods</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">produits sec</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#local-grocery-store"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#flour"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#dried_herb"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#flake"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#grain"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#seed"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#pulse"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#dried_herb">
@@ -2247,58 +2293,12 @@
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#dried_goods"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#grain">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
-	<skos:prefLabel xml:lang="fr">céréale</skos:prefLabel>
-	<skos:prefLabel xml:lang="en">grain</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#savory-groceries"/>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#dried_goods"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#seed">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
 	<skos:prefLabel xml:lang="en">seed</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">graine</skos:prefLabel>
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#dried_goods"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#corn-salad">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
-	<skos:prefLabel xml:lang="en">corn salad/lambs lettuce</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">mâche</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#salad"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#hierloom-tomato">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
-	<skos:prefLabel xml:lang="en">hierloom tomato</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">tomate ancienne</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#tomato"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#cannedGoods">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
-	<skos:prefLabel xml:lang="en">canned goods</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#savory-groceries"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#snack">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
-	<skos:prefLabel xml:lang="en">snack</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#savory-groceries"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#ferment">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"/>
-	<skos:prefLabel xml:lang="en">ferment</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#savory-groceries"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#pulse">

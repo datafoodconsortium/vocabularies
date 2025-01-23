@@ -22,6 +22,10 @@ in ProductTypes.rdf & ProductTypes.json:
  - `ferment` as narrower of `savory-groceries`
  - `dried_goods` as narrower of `local-grocery-store`
 
+### Changed
+
+Included new exports of facets.rdf, measures.rdf, productTypes.rdf & vocabulary.rdf following VOCbench upgrade
+
 ### Fixed
 
 in ProductTypes.rdf & ProductTypes.json:
