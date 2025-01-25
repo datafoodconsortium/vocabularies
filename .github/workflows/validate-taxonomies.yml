@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '**.json'
+
+jobs:
+  validate-taxonomies:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Validate JSON-LD taxonomies
+        run: |
+          exit_code=0
+          validator=.github/workflows/scripts/validate_taxonomy.py
+          for json in $(find . -name '*.json'); do
+            if ! python "$validator" "$json"; then
+              exit_code=1
+            fi
+          done
+          exit $exit_code
+
